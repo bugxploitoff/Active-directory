@@ -3,16 +3,15 @@ All about windows AD Offensive hacking
 
 ## Table of content
 - [What is active directory](#what-is-active-directory)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Domains](#domain)
+  - [Domain Name](#domain-name)
 
 ## what is active directory
 From my perspective, Active Directory is a system that allows to manage a set of computers and users connected in the same network from a central server.
 
 Sure, this definition is far from being totally accurate, but I hope it is simple enough to give you an idea of what AD is.
 
+![AD STRUCTURE](./Notepad%2018-03-2023%2000_39_10.png)
 
 Active Directory network
 Imagine a company with hundreds of employees, where each one works in its own (probably Windows) computer. This company has several different departments, like sales, human resources, IT, etc.
@@ -35,16 +34,12 @@ I hope this example allows you to understand why Active Directory is so useful a
 
 And… what happens if someone can steal the password of an IT user? Could she change the other users passwords? And access to the database?
 
-Now that is clear why Active Directory is so important, let's introduce their items.
+Now that is clear why Active Directory is so important, let's introduce their items.\
 
-## Installation
-These are the steps you need to follow to install my project.
+## domain
+First of all, what we have been calling an Active Directory network is what is usually known as a Domain. A domain is a set of connected computers that shares an Active Directory database, which is managed by the central servers of a domain, that are called Domain Controllers.
 
-## Usage
-Here are some examples of how to use my project.
+## domain name
+Each domain has a DNS name. In many companies, the name of the domain is the same as their web site, for example bugxploit.com, while others have a different internal domain such as bugxploit.local.
 
-## Contributing
-This is how you can contribute to my project.
 
-## License
-This is the license that my project is released under.
